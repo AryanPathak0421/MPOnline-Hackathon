@@ -4,11 +4,16 @@
   "description": "AI-Powered Career Readiness & Employability Platform Backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && nodemon server.js",
     "test": "jest --detectOpenHandles"
   },
-  "keywords": ["career", "skills", "assessment", "job-matching"],
+  "keywords": [
+    "career",
+    "skills",
+    "assessment",
+    "job-matching"
+  ],
   "author": "Career Readiness Team",
   "license": "MIT",
   "dependencies": {
