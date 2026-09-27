@@ -3,6 +3,7 @@ const router = express.Router();
 const db = require('../config/database');
 const { authMiddleware } = require('../middleware/auth');
 
+
 // Get all assessments
 router.get('/', async (req, res) => {
   try {
